@@ -50,10 +50,10 @@ export function initRouter(container:Element){
 
     }
     if(location.host.includes("github.io")){
-        goTo("/desafio-m5/inicio ")
+        goTo("/dwf-m5-desafioFinal/inicio ")
     }
     if(location.pathname=="/"){
-        goTo("/desafio-m5/inicio ")
+        goTo("/dwf-m5-desafioFinal/inicio ")
     }
    else{
         handleRoute(location.pathname)
