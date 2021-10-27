@@ -63,7 +63,8 @@ import {state}from"../../state"
 
     
      div.addEventListener("click",(r)=>{
-        parametros.goTo("/desafio-m5/instrucciones")
+        parametros.goTo("/dwf-m5-desafioFinal/instrucciones")
+       console.log(2);
        
      })
  

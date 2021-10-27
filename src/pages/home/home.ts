@@ -22,7 +22,7 @@ import "./home.css"
     `
     const button = div.querySelector(".button__home");
     button.addEventListener("click",()=>{
-      params.goTo("/dwf-m5-desafioFinal-m5/instrucciones")
+      params.goTo("/dwf-m5-desafioFinal/instrucciones")
   
     })
     

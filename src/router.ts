@@ -6,23 +6,23 @@ import { results } from "./pages/results/results";
 
     const routes=[
         {
-            path:/\/dwf-m5-desafioFinal-m5\/inicio/,
+            path:/\/dwf-m5-desafioFinal\/inicio/,
             page: home
         },
          {
-            path:/\/dwf-m5-desafioFinal-m5\/instrucciones/,
+            path:/\/dwf-m5-desafioFinal\/instrucciones/,
             page: instru
         },
         {
-            path:/\/dwf-m5-desafioFinal-m5\/play/,
+            path:/\/dwf-m5-desafioFinal\/play/,
             page: play
         },
         {
-            path:/\/dwf-m5-desafioFinal-m5\/move/,
+            path:/\/dwf-m5-desafioFinal\/move/,
             page: move
         },
         {
-            path:/\/dwf-m5-desafioFinal-m5\/results/,
+            path:/\/dwf-m5-desafioFinal\/results/,
             page: results
         }
         
