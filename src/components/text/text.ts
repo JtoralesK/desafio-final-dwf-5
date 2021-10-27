@@ -27,7 +27,7 @@ export function initText(){
               .negro{
                 margin:0;
                 text-align:center;
-                margin-top:80px;
+                margin-top:40px;
                 font-size:40px;
                 color:black;
                 padding-right:0px;
