@@ -6,7 +6,7 @@ import { results } from "./pages/results/results";
 
     const routes=[
         {
-            path:/\/dwf-m5-desafioFinal\/inicio/,
+            path:/\/dwf-m5-desafioFinal/,
             page: home
         },
          {
@@ -50,11 +50,11 @@ export function initRouter(container:Element){
 
     }
     if(location.host.includes("github.io")){
-        goTo("/dwf-m5-desafioFinal/inicio ")
+        goTo("/dwf-m5-desafioFinal")
+        console.log("hola");
+        
     }
-    if(location.pathname=="/"){
-        goTo("/dwf-m5-desafioFinal/inicio ")
-    }
+   
    else{
         handleRoute(location.pathname)
     }
