@@ -1,0 +1,1 @@
+{"mappings":"AAAA,EACE,qBACF,CAEA,KAGE,sBAAuB,CAFvB,yDAAyC,CACzC,QAEF","sources":["src/style.css"],"sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-image: url(\"../img/fondo.png\");\r\n  margin: 0;\r\n  background-color: azure;\r\n}\r\n"],"names":[],"version":3,"file":"index.3936fc87.css.map"}
