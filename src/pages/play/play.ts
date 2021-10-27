@@ -54,7 +54,7 @@ import { move } from "../move/move";
       
         
         setTimeout(()=>{
-          parametros.goTo("/dwf-m5-desafioFinal/move")
+          parametros.goTo("/desafio-final-dwf-5/move")
         },1000)
         
       }

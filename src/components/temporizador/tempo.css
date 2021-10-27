@@ -5,7 +5,7 @@
 .segundos-div{
   width: 250px;
   height: 250px;
-  border: solid 25px black;
+  border: solid 25px rgb(214, 13, 13);
   border-radius: 50%;
   border-left-color: rgba(0, 0, 0, 0.3);
   border-bottom-color: rgba(0, 0, 0, 0.3);

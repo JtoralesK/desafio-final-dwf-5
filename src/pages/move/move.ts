@@ -116,7 +116,7 @@ import {state}from"../../state"
        }
        state.setMove("userMove",moveCpu[0]);
       setTimeout(() => {
-        parametros.goTo("/dwf-m5-desafioFinal/results")
+        parametros.goTo("/desafio-final-dwf-5/results")
       }, 2000);
        cpu()
         

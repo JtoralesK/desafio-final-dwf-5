@@ -6,23 +6,23 @@ import { results } from "./pages/results/results";
 
     const routes=[
         {
-            path:/\/dwf-m5-desafioFinal/,
+            path:/\/desafio-final-dwf-5/,
             page: home
         },
          {
-            path:/\/dwf-m5-desafioFinal\/instrucciones/,
+            path:/\/desafio-final-dwf-5\/instrucciones/,
             page: instru
         },
         {
-            path:/\/dwf-m5-desafioFinal\/play/,
+            path:/\/desafio-final-dwf-5\/play/,
             page: play
         },
         {
-            path:/\/dwf-m5-desafioFinal\/move/,
+            path:/\/desafio-final-dwf-5\/move/,
             page: move
         },
         {
-            path:/\/dwf-m5-desafioFinal\/results/,
+            path:/\/desafio-final-dwf-5\/results/,
             page: results
         }
         
@@ -50,7 +50,12 @@ export function initRouter(container:Element){
 
     }
     if(location.host.includes("github.io")){
-        goTo("/dwf-m5-desafioFinal")
+        goTo("/desafio-final-dwf-5")
+        console.log("hola");
+        
+    }
+     if(location.pathname=="/"){
+        goTo("/desafio-final-dwf-5")
         console.log("hola");
         
     }

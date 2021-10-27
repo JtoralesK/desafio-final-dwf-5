@@ -20,8 +20,8 @@ import {state}from"../../state"
     const button = div.querySelector(".button__jugar");
     button.addEventListener("click",(ev)=>{
       
-      params.goTo("/dwf-m5-desafioFinal/play")
-      let segundos = 3
+      params.goTo("/desafio-final-dwf-5/play")
+     
       
       
     })
