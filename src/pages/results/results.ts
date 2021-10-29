@@ -9,39 +9,44 @@ import {state}from"../../state"
     
     let juego =state.whoWins(data.computerMove,data.userMove)
     
+   
     
-     
+    console.log(juego);
     
-     console.log(data);
-     
-     if(data.computerMove=="none" && data.userMove=="none"){
-      state.pushData()
     
-     }
      state.pushWins(juego)
-  
+    
+    
     
     
     let user = dataEntera.history.userWins;
     let computer= dataEntera.history.computerWins;
     let empatejugada= dataEntera.history.empate;
     
-
+ 
+ 
     //console.log(juego,data);
     let tipoImg;
     let tipoColor;
     if(juego=="gano la compu"){
      tipoImg=perdiste;
      tipoColor="page-results-perdistee"
+    
+     
     }
     if(juego== "gano el usuario"){
       tipoImg=ganaste
       tipoColor="page-results-ganaste"
-     }if(juego=="empate"){
+      
+     }
+     if(juego=="empate"){
       tipoImg=empate;
       tipoColor="page-results-empate"
+      
      }
-
+     
+  //console.log(tipoColor);
+  
     div.innerHTML=`
     <div class="${tipoColor}">
     <div class="container__results">
@@ -64,7 +69,7 @@ import {state}from"../../state"
     
      div.addEventListener("click",(r)=>{
         parametros.goTo("/desafio-final-dwf-5/instrucciones")
-       console.log(2);
+     
        
      })
  

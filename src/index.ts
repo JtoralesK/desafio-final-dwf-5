@@ -8,6 +8,9 @@ import { initPapel } from "./components/manos/papel";
 import { initPiedra } from "./components/manos/piedra";
 
 (function(){
+ 
+    state.init()
+    
     const container = document.querySelector(".main-container")
     initRouter(container)
     elButton()
@@ -15,5 +18,6 @@ import { initPiedra } from "./components/manos/piedra";
     initTijera()
     initPapel()
     initPiedra()
+  
        
 })();

@@ -3,7 +3,8 @@
 }
 
 body {
-  background-image: url("../img/fondo.png");
+ 
   margin: 0;
   background-color: azure;
+  background-image: url("../img/fondo.png");
 }
