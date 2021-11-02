@@ -41,6 +41,14 @@ const state = {
     subscribe(cb: (any) => any) {
       this.listeners.push(cb);
     },
+    restartGame() {
+      const currentState = this.getState();
+  
+      currentState.currentGame.computerMove = "none";
+      currentState.currentGame.userMove = "none";
+  
+      this.setState(currentState);
+    },
   
     setMove(player: Player, move: Move) {
       const currentState = this.getState();

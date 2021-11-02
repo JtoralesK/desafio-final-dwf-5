@@ -46,7 +46,7 @@ import {state}from"../../state"
      }
      
   //console.log(tipoColor);
-  
+  state.restartGame()
     div.innerHTML=`
     <div class="${tipoColor}">
     <div class="container__results">
