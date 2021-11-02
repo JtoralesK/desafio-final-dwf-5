@@ -25,6 +25,11 @@ export function initPiedra(){
             height:100px;
          
           }
+          .ultimaJugada {
+            opacity: 1;
+            width: 82px;
+            height: 236px;
+          }
           .movimiento {
             width: 72px;
             height: 216px;
@@ -59,10 +64,7 @@ export function initPiedra(){
           }
           
            `
-            img.innerHTML=`
             
-            <button class="button "><img class="jugada" src="${piedra}"</button> 
-            `
            
             this.shadow.appendChild(img);
             this.shadow.appendChild(style);

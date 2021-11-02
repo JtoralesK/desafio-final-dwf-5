@@ -41,6 +41,11 @@ export function initTijera(){
             width: 82px;
             height: 236px;
           }
+          .ultimaJugada {
+            opacity: 1;
+            width: 82px;
+            height: 236px;
+          }
           
           @media (min-width: 678px) {
            .jugada{
@@ -67,10 +72,7 @@ export function initTijera(){
           }
           
            `
-            img.innerHTML=`
             
-            <button  class="button  "><img class="jugada" src="${tijera}"</button>  
-            `
             
             this.shadow.appendChild(img);
             this.shadow.appendChild(style);

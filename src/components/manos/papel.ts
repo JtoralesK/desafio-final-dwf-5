@@ -41,6 +41,11 @@ export function initPapel(){
             width: 82px;
             height: 236px;
           }
+          .ultimaJugada {
+            opacity: 1;
+            width: 82px;
+            height: 236px;
+          }
           
            .elegida{
             width:170px;
