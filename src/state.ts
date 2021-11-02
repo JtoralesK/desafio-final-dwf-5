@@ -27,22 +27,31 @@ const state = {
       for (const cb of this.listeners) {
         cb();
       }
-      localStorage.setItem("game-data", JSON.stringify(newState));
-     //console.log(this.getState().history.ultimajugada,"ultimajugada");
+      localStorage.setItem("game", JSON.stringify(newState));
+    
      
       
     },
   
    init(){
-    const localData = JSON.parse(localStorage.getItem("game-data"))
-     this.setState(localData) 
+     let data = this.getState()
+     console.log(data,localStorage.game);
+     
+    if(!localStorage.game){
+      this.setState(data)
+    }else{
+      const localData = JSON.parse(localStorage.getItem("game"))
+    
+      this.setState({...data,localData}) 
+    }
+   
    },
   
     subscribe(cb: (any) => any) {
       this.listeners.push(cb);
     },
     restartGame() {
-      const currentState = this.getState();
+      const currentState = this.getState() ;
   
       currentState.currentGame.computerMove = "none";
       currentState.currentGame.userMove = "none";
